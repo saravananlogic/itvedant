@@ -1,0 +1,267 @@
+.grad{
+
+    height:300px;
+    background:linear-gradient(red,yellow)
+}
+
+
+.grad{
+
+    height:300px;
+    background:linear-gradient(to right, red,yellow)
+}
+
+
+.grad{
+
+    height:300px;
+    background:linear-gradient(to top right, red,yellow)
+}
+
+
+
+.grad{
+
+    height:300px;
+    background:radial-gradient(red,yellow)
+}
+
+
+
+.grad{
+
+    height:300px;
+    background:radial-gradient(circle, red,yellow)
+}
+
+.grad{
+
+    height:500px;
+    background:radial-gradient(circle, red 45%,yellow 55%);
+}
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transform: scaleX(1.5);
+    
+}
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    
+}
+
+.trans:hover{
+
+transform:translateX(400px);
+
+}
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transition-property:transform;
+    transition-duration:3s;
+}
+
+.trans:hover{
+
+transform:translate(400px);
+
+}
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transition-property:transform;
+    transition-duration:3s;
+}
+
+.trans:hover{
+
+transform:scale(1.5);
+
+}
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transition-property:transform;
+    transition-duration:3s;
+}
+
+.trans:hover{
+
+transform:rotate(45deg);
+
+}
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transition-property:transform;
+    transition-duration:3s;
+}
+
+.trans:hover{
+
+transform:rotateY(180deg);
+
+}
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transition-property:transform;
+    transition-duration:3s;
+    transition-delay:2s;
+}
+
+.trans:hover{
+
+transform:rotateY(180deg);
+
+}
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin: 200px auto;
+    transition:transform 3s 2s;
+}
+
+.trans:hover{
+
+transform:rotateY(180deg);
+
+}
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    color: white;
+    text-align:center;
+    padding-top:20px;
+    box-sizing:border-box;
+    animation-name:myanim;
+    animation-duration:8s;
+}
+
+@keyframes myanim{
+
+from{background-color:red;}
+to{background-color:blue;}
+
+}
+
+
+
+
+
+.trans{
+ 
+    width: 300px;
+    height: 300px;
+    color: white;
+    text-align:center;
+    padding-top:20px;
+    box-sizing:border-box;
+    animation-name:myanim;
+    animation-duration:8s;
+}
+
+@keyframes myanim{
+
+25% {background-color:blue;}
+50% {background-color:green;}
+75% {background-color:yellow;}
+100% {background-color:pink;}
+
+
+}
+
+
+
+
